@@ -6,21 +6,25 @@
         'total_e' => 0,
         'total_i' => 0,
     ];
+
     if($_POST['p1'] === 'e'){
         $total['total_e'] += 1;
-    }else{
+    } else{
         $total['total_i'] += 1;
     }
+
     if($_POST['p2'] === 'e'){
         $total['total_e'] += 1;
-    }else{
+    } else{
         $total['total_i'] += 1;
     }
+
     if($_POST['p3'] === 'e'){
         $total['total_e'] += 1;
-    }else{
+    } else{
         $total['total_i'] += 1;
     }
+
     $resultado = $msgErr = "";
     // echo 'total extrovertido'.$total['total_e'].'<br>';
     // echo 'total introvertido'.$total['total_i'].'<br>';
@@ -46,6 +50,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
+        <link href="css/style.css" rel="stylesheet">
         <title>INTROVERTIDO OU EXTROVERTIDO? | QUESTIONÁRIO - RESULTADO</title>
         <meta charset="utf-8">
     </head>
