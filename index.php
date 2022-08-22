@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Título da página</title>
+        <title>INTROVERTIDO OU EXTROVERTIDO? | QUESTIONÁRIO - PERGUNTAS</title>
         <meta charset="utf-8">
     </head>
     <body>
@@ -15,23 +15,23 @@
         </header>
         <main>
             <form action="resultado.php" method="post">
-                <label name="1">Pergunta 1</label>
-                <input type="radio" name="p1" value="e"><br>
-                <input type="radio" name="p1" value="i"><br>
-                <input type="radio" name="p1" value="i"><br>
-                <input type="radio" name="p1" value="e"><br>
+                <label>Pergunta 1</label>
+                <input type="radio" name="p1" value="e">e<br>
+                <input type="radio" name="p1" value="i">i<br>
+                <input type="radio" name="p1" value="i">i<br>
+                <input type="radio" name="p1" value="e">e<br>
 
                 <label>Pergunta 2</label>
-                <input type="radio" name="p2" value="i"><br>
-                <input type="radio" name="p2" value="i"><br>
-                <input type="radio" name="p2" value="e"><br>
-                <input type="radio" name="p2" value="e"><br>
+                <input type="radio" name="p2" value="i">i<br>
+                <input type="radio" name="p2" value="i">i<br>
+                <input type="radio" name="p2" value="e">e<br>
+                <input type="radio" name="p2" value="e">e<br>
 
                 <label>Pergunta 3</label>
-                <input type="radio" name="p3" value="e"><br>
-                <input type="radio" name="p3" value="i"><br>
-                <input type="radio" name="p3" value="e"><br>
-                <input type="radio" name="p3" value="i"><br>
+                <input type="radio" name="p3" value="e">e<br>
+                <input type="radio" name="p3" value="i">i<br>
+                <input type="radio" name="p3" value="e">e<br>
+                <input type="radio" name="p3" value="i">i<br>
 
                 <input type="submit" name="<?php echo $total ?>">
             </form>

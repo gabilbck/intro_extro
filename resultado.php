@@ -21,13 +21,13 @@
     }else{
         $total['total_i'] += 1;
     }
-    $resultado = "";
-    echo 'total extrovertido'.$total['total_e'].'<br>';
-    echo 'total introvertido'.$total['total_i'].'<br>';
+    $resultado = $msgErr = "";
+    // echo 'total extrovertido'.$total['total_e'].'<br>';
+    // echo 'total introvertido'.$total['total_i'].'<br>';
     if($total['total_e'] > $total['total_i']){
         $resultado = '<h1>Extrovertido</h1>';
         $sql = $pdo->prepare("INSERT INTO resultado (resultado) VALUES (?)");
-            if ($sql->execute(array(true))){
+            if ($sql->execute(array(1))){
                 $msgErr = "Dados cadastrados com sucesso!";
             } else {
                 $msgErr = "Dados não cadastrados!";
@@ -35,7 +35,7 @@
     }else{
         $resultado = '<h1>Introvertido</h1>';
         $sql = $pdo->prepare("INSERT INTO resultado (resultado) VALUES (?)");
-        if ($sql->execute(array(false))){
+        if ($sql->execute(array(0))){
             $msgErr = "Dados cadastrados com sucesso!";
         }else{
             $msgErr = "Dados não cadastrados!";
@@ -46,7 +46,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Resultado</title>
+        <title>INTROVERTIDO OU EXTROVERTIDO? | QUESTIONÁRIO - RESULTADO</title>
         <meta charset="utf-8">
     </head>
     <body>
