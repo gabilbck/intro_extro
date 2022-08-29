@@ -13,10 +13,16 @@
     position: relative;
 }
 
-.container .conteudo{
+.conteudo{
     position: absolute;
     top: 145px;
     right: 400px;
     font-size: 40px;
-    color: black;
+    color: white;
+}
+
+.conteudo fieldset{
+    background-color: #AB007A;
+    border: 0;
+    box-shadow: white -20px -20px -20px;
 }
