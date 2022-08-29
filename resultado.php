@@ -25,6 +25,78 @@
         $total['total_i'] += 1;
     }
 
+    if($_POST['p4'] === 'e'){
+        $total['total_e'] += 1;
+    } else{
+        $total['total_i'] += 1;
+    }
+
+    if($_POST['p5'] === 'e'){
+        $total['total_e'] += 1;
+    } else{
+        $total['total_i'] += 1;
+    }
+
+    if($_POST['p6'] === 'e'){
+        $total['total_e'] += 1;
+    } else{
+        $total['total_i'] += 1;
+    }
+
+    if($_POST['p7'] === 'e'){
+        $total['total_e'] += 1;
+    } else{
+        $total['total_i'] += 1;
+    }
+
+    if($_POST['p8'] === 'e'){
+        $total['total_e'] += 1;
+    } else{
+        $total['total_i'] += 1;
+    }
+
+    if($_POST['p9'] === 'e'){
+        $total['total_e'] += 1;
+    } else{
+        $total['total_i'] += 1;
+    }
+
+    if($_POST['p10'] === 'e'){
+        $total['total_e'] += 1;
+    } else{
+        $total['total_i'] += 1;
+    }
+
+    if($_POST['p11'] === 'e'){
+        $total['total_e'] += 1;
+    } else{
+        $total['total_i'] += 1;
+    }
+
+    if($_POST['p12'] === 'e'){
+        $total['total_e'] += 1;
+    } else{
+        $total['total_i'] += 1;
+    }
+
+    if($_POST['p13'] === 'e'){
+        $total['total_e'] += 1;
+    } else{
+        $total['total_i'] += 1;
+    }
+
+    if($_POST['p14'] === 'e'){
+        $total['total_e'] += 1;
+    } else{
+        $total['total_i'] += 1;
+    }
+
+    if($_POST['p15'] === 'e'){
+        $total['total_e'] += 1;
+    } else{
+        $total['total_i'] += 1;
+    }
+
     $resultado = $msgErr = "";
     // echo 'total extrovertido'.$total['total_e'].'<br>';
     // echo 'total introvertido'.$total['total_i'].'<br>';
