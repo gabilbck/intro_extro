@@ -122,6 +122,7 @@
                         <h1>Questionário - Intro ou Extro?</h1>
                     </header>
                 </fieldset>
+                <br>
                 <!-- Questionário -->
                 <fieldset>
                     <main>
