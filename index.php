@@ -119,7 +119,10 @@
                 <!-- Título -->
                 <fieldset>
                     <header>
-                        <h1>Questionário - Intro ou Extro?</h1>
+                        <h1>
+                            DESCUBRA SE VOCÊ É <br>
+                            <a id="extro">EXTROVERTIDO</a> OU <a id="intro">INTROVERTIDO</a>!
+                        </h1>
                     </header>
                 </fieldset>
                 <br>
@@ -132,91 +135,91 @@
                             <input type="radio" name="p1" value="i"> i<br>
                             <input type="radio" name="p1" value="i"> i<br>
                             <input type="radio" name="p1" value="e"> e<br>
-
+                            <br><hr><br>
                             <label>Pergunta 2</label><br>
                             <input type="radio" name="p2" value="i"> i<br>
                             <input type="radio" name="p2" value="i"> i<br>
                             <input type="radio" name="p2" value="e"> e<br>
                             <input type="radio" name="p2" value="e"> e<br>
-
+                            <br><hr><br>
                             <label>Pergunta 3</label><br>
                             <input type="radio" name="p3" value="e"> e<br>
                             <input type="radio" name="p3" value="i"> i<br>
                             <input type="radio" name="p3" value="e"> e<br>
                             <input type="radio" name="p3" value="i"> i<br>
-
+                            <br><hr><br>
                             <label>Pergunta 4</label><br>
                             <input type="radio" name="p4" value="e"> e<br>
                             <input type="radio" name="p4" value="i"> i<br>
                             <input type="radio" name="p4" value="i"> i<br>
                             <input type="radio" name="p4" value="e"> e<br>
-
+                            <br><hr><br>
                             <label>Pergunta 5</label><br>
                             <input type="radio" name="p5" value="i"> i<br>
                             <input type="radio" name="p5" value="i"> i<br>
                             <input type="radio" name="p5" value="e"> e<br>
                             <input type="radio" name="p5" value="e"> e<br>
-
+                            <br><hr><br>
                             <label>Pergunta 6</label><br>
                             <input type="radio" name="p6" value="e"> e<br>
                             <input type="radio" name="p6" value="i"> i<br>
                             <input type="radio" name="p6" value="e"> e<br>
                             <input type="radio" name="p6" value="i"> i<br>
-
+                            <br><hr><br>
                             <label>Pergunta 7</label><br>
                             <input type="radio" name="p7" value="e"> e<br>
                             <input type="radio" name="p7" value="i"> i<br>
                             <input type="radio" name="p7" value="e"> e<br>
                             <input type="radio" name="p7" value="i"> i<br>
-
+                            <br><hr><br>
                             <label>Pergunta 8</label><br>
                             <input type="radio" name="p8" value="e"> e<br>
                             <input type="radio" name="p8" value="i"> i<br>
                             <input type="radio" name="p8" value="i"> i<br>
                             <input type="radio" name="p8" value="e"> e<br>
-
+                            <br><hr><br>
                             <label>Pergunta 9</label><br>
                             <input type="radio" name="p9" value="i"> i<br>
                             <input type="radio" name="p9" value="i"> i<br>
                             <input type="radio" name="p9" value="e"> e<br>
                             <input type="radio" name="p9" value="e"> e<br>
-
+                            <br><hr><br>
                             <label>Pergunta 10</label><br>
                             <input type="radio" name="p10" value="e"> e<br>
                             <input type="radio" name="p10" value="i" >i<br>
                             <input type="radio" name="p10" value="e"> e<br>
                             <input type="radio" name="p10" value="i"> i<br>
-                            
+                            <br><hr><br>
                             <label>Pergunta 11</label><br>
                             <input type="radio" name="p11" value="e"> e<br>
                             <input type="radio" name="p11" value="i"> i<br>
                             <input type="radio" name="p11" value="e"> e<br>
                             <input type="radio" name="p11" value="i"> i<br>
-
+                            <br><hr><br>
                             <label>Pergunta 12</label><br>
                             <input type="radio" name="p12" value="e"> e<br>
                             <input type="radio" name="p12" value="i"> i<br>
                             <input type="radio" name="p12" value="e"> e<br>
                             <input type="radio" name="p12" value="i"> i<br>
-
+                            <br><hr><br>
                             <label>Pergunta 13</label><br>
                             <input type="radio" name="p13" value="e"> e<br>
                             <input type="radio" name="p13" value="i"> i<br>
                             <input type="radio" name="p13" value="e"> e<br>
                             <input type="radio" name="p13" value="i"> i<br>
-
+                            <br><hr><br>
                             <label>Pergunta 14</label><br>
                             <input type="radio" name="p14" value="e"> e<br>
                             <input type="radio" name="p14" value="i"> i<br>
                             <input type="radio" name="p14" value="e"> e<br>
                             <input type="radio" name="p14" value="i"> i<br>
-
+                            <br><hr><br>
                             <label>Pergunta 15</label><br>
                             <input type="radio" name="p15" value="e"> e<br>
                             <input type="radio" name="p15" value="i"> i<br>
                             <input type="radio" name="p15" value="e"> e<br>
                             <input type="radio" name="p15" value="i"> i<br>
-
+                            <br><hr><br>
                             <!-- Enviar Informações ao baanco de dados -->
                             <input type="submit"  name="<?php echo $total ?>">
                         </form>
