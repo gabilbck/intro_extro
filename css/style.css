@@ -15,18 +15,21 @@
 }
 
 #extro{
-    color: red;
+    color:crimson;
+    text-shadow: white -0px 0px 1px;
 }
 
 #intro{
     color: deepskyblue;
+    text-shadow: white -0px 0px 1px;
 }
 
 .conteudo{
     position: absolute;
-    top: 145px;
-    right: 400px;
-    font-size: 30px;
+    top: 100px;
+    right: 20%;
+    left: 20%;
+    font-size: 21px;
     color: white;
 }
 
@@ -35,4 +38,13 @@
     background-color: #AB007A;
     box-shadow:-7px 7px 0px 0px white;
     border: 0;
+}
+
+#enviar{
+    width: 100px;
+    height: 40px;
+    font-size: 21px;
+    background-color: white;
+    border: 0;
+    border-radius: 0.3rem;
 }
