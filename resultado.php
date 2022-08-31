@@ -122,7 +122,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/estilo.css" rel="stylesheet">
         <title>INTROVERTIDO OU EXTROVERTIDO? | QUESTIONÁRIO - RESULTADO</title>
         <meta charset="utf-8">
     </head>

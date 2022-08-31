@@ -38,6 +38,11 @@
     background-color: #AB007A;
     box-shadow:-7px 7px 0px 0px white;
     border: 0;
+    border-radius: 0.3rem;
+}
+
+.margem-baixo{
+    margin-bottom: 7px;
 }
 
 #enviar{
@@ -47,6 +52,6 @@
     height: 40px;
     font-size: 21px;    
     border: 0;
-    box-shadow: white -3px 3px 2px;
+    box-shadow: white -3px 3px 1px;
     border-radius: 0.3rem;
 }
