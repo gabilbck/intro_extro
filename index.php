@@ -120,86 +120,86 @@
                         <br>
                         <fieldset>    
                             <label>Pergunta 2</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p2" value="e"> Sim<br>
+                            <input type="radio" name="p2" value="i"> Não<br>
                         </fieldset>
                         <br>   
                         <fieldset>
                             <label>Pergunta 3</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br> 
+                            <input type="radio" name="p3" value="e"> Sim<br>
+                            <input type="radio" name="p3" value="i"> Não<br> 
                         </fieldset>
                         <br>
                         <fieldset> 
                             <label>Pergunta 4</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p4" value="e"> Sim<br>
+                            <input type="radio" name="p4" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
                             <label>Pergunta 5</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p5" value="e"> Sim<br>
+                            <input type="radio" name="p5" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
                             <label>Pergunta 6</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p6" value="e"> Sim<br>
+                            <input type="radio" name="p6" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
                             <label>Pergunta 7</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p7" value="e"> Sim<br>
+                            <input type="radio" name="p7" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
                             <label>Pergunta 8</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p8" value="e"> Sim<br>
+                            <input type="radio" name="p8" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
                             <label>Pergunta 9</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p9" value="e"> Sim<br>
+                            <input type="radio" name="p9" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
                             <label>Pergunta 10</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p10" value="e"> Sim<br>
+                            <input type="radio" name="p10" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
                             <label>Pergunta 11</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p11" value="e"> Sim<br>
+                            <input type="radio" name="p11" value="i"> Não<br>
                             </fieldset>
                         <br>
                         <fieldset>
                             <label>Pergunta 12</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p12" value="e"> Sim<br>
+                            <input type="radio" name="p12" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
                             <label>Pergunta 13</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p13" value="e"> Sim<br>
+                            <input type="radio" name="p13" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
                             <label>Pergunta 14</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p14" value="e"> Sim<br>
+                            <input type="radio" name="p14" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
                             <label>Pergunta 15</label><br>
-                            <input type="radio" name="p1" value="e"> Sim<br>
-                            <input type="radio" name="p1" value="i"> Não<br>
+                            <input type="radio" name="p15" value="e"> Sim<br>
+                            <input type="radio" name="p15" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
