@@ -103,6 +103,14 @@
     if($total['total_e'] > $total['total_i']){
         $resultado = '<h1 id="extro">Extrovertido</h1>';
         $desc = '<p>Descrição do extrovertido</p>';
+        $img1 = '';
+        $img2 = '';
+        $img3 = '';
+        $img4 = '';
+        $nome1 = '';
+        $nome2 = '';
+        $nome3 = '';
+        $nome4 = '';
         $sql = $pdo->prepare("INSERT INTO resultado (resultado) VALUES (?)");
             if ($sql->execute(array(1))){
                 $msgErr = "Dados cadastrados com sucesso!";
@@ -140,6 +148,7 @@
             <img id="background" src="img/background.png">
             <img id="background" src="img/background.png">
             <img id="background" src="img/background.png">
+            <img id="background" src="img/footer.png">
             <!-- Conteúdo sobreposto -->
             <div class="conteudo">
                 <!-- Título -->
