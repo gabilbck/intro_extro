@@ -45,6 +45,10 @@
     margin-bottom: 7px;
 }
 
+.margem-baixo2{
+    margin-bottom: 20px;
+}
+
 #enviar{
     color: white;
     background-color: #AB007A;
@@ -54,4 +58,8 @@
     border: 0;
     box-shadow: white -3px 3px 1px;
     border-radius: 0.3rem;
+}
+
+#nomes{
+    text-align: center;
 }

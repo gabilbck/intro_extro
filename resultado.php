@@ -150,32 +150,53 @@
                         </center>
                     </header>
                 </fieldset>
-                <br><br>
+                <br>
                 <!-- Informações -->
                 <main>
                     <!-- Descrição -->
                     <fieldset>
                         <?php echo $desc ?>
                     </fieldset>
-                    <br>
+                    <br><br>
                     <!-- Pessoas Relacionadas -->
                     <fieldset>
                         <center>
-                            <h1>ALGUMAS FIGURAS FAMOSAS COM O MESMO ASPECTO QUE VOCÊ:</h1>
+                            <h1>ALGUMAS FIGURAS FAMOSAS COM O MESMO ESPECTRO QUE VOCÊ:</h1>
                         </center>
                     </fieldset>
                     <br>
                     <fieldset>
                         <table class="relacionadas">
-                            <!-- Imagens -->
-                            <tr> 
-                                <td><img src=""></td>
-                                <td><img src=""><img></td>
+                            <!-- Coluna 1 -->
+                            <tr> <!-- Imagens -->
+                                <td><center><img src="img/img_teste.png" width="70%"></center></td>
+                                <td><center><img src="img/img_teste.png" width="70%"></center></td>
                             </tr>
-                            <!-- Nome -->
-                             <tr>
-                                <td>Nome da Pessoa</td>
-                                <td>Nome da Pessoa</td>
+                            <tr> <!-- Margem -->
+                                <td><div class="margem-baixo"></div></td>
+                                <td><div class="margem-baixo"></div></td>
+                            </tr>
+                             <tr> <!-- Nome -->
+                                <td id="nomes">Nome da Pessoa</td>
+                                <td id="nomes">Nome da Pessoa</td>
+                            </tr>
+                            <!-- Margem -->
+                            <tr>
+                                <td><div class="margem-baixo2"></div></td>
+                                <td><div class="margem-baixo2"></div></td>
+                            </tr>
+                            <!-- Coluna 2 -->
+                            <tr> <!-- Imagens -->
+                                <td><center><img src="img/img_teste.png" width="70%"></center></td>
+                                <td><center><img src="img/img_teste.png" width="70%"></center></td>
+                            </tr>
+                            <tr> <!-- Margem -->
+                                <td><div class="margem-baixo"></div></td>
+                                <td><div class="margem-baixo"></div></td>
+                            </tr>
+                             <tr> <!-- Nome -->
+                                <td id="nomes">Nome da Pessoa</td>
+                                <td id="nomes">Nome da Pessoa</td>
                             </tr>
                         </table>
                         <?php // echo $rel ?>
