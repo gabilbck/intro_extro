@@ -183,7 +183,7 @@
                         </fieldset>
                         <br>
                         <fieldset>
-                            <label>Você não tem problema em não falar com ninguém, mas quando falam com você não tem problema em responder?</label><br>
+                            <label>Você não tem problema em não falar com ninguém e quando lhe perguntam algo você não tem dificuldade em responder?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p11" value="i"> Sim<br>
                             <input type="radio" name="p11" value="e"> Não<br>
