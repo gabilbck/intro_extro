@@ -93,10 +93,8 @@
         <!-- Corpo da página: imagem com o conteúdo sobreposto -->
         <div class="container">
             <!-- Imagem de fundo -->
-            <img id="background" src="img/background.png">
-            <img id="background" src="img/background.png">
-            <img id="background" src="img/background.png">
-            <img id="background" src="img/background.png">
+            <img id="background" src="img/background1.png">
+            <img id="background" src="img/background2.png">
             <!-- Conteúdo sobreposto -->
             <div class="conteudo">
                 <!-- Título -->

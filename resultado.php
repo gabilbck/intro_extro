@@ -98,19 +98,21 @@
     }
 
     $resultado = $msgErr = $desc = "";
+    $img1 = $img2 = $img3 = $img4 = "";
+    $nome1 = $nome2 = $nome3 = $nome4 = "";
     // echo 'total extrovertido'.$total['total_e'].'<br>';
     // echo 'total introvertido'.$total['total_i'].'<br>';
     if($total['total_e'] > $total['total_i']){
-        $resultado = '<h1 id="extro">Extrovertido</h1>';
-        $desc = '<p>Descrição do extrovertido</p>';
-        $img1 = '';
-        $img2 = '';
-        $img3 = '';
-        $img4 = '';
-        $nome1 = '';
-        $nome2 = '';
-        $nome3 = '';
-        $nome4 = '';
+        $resultado = '<h1 id="extro">EXTROVERTIDO</h1>';
+        $desc = '<p>Pessoas extrovertidas, em resumo, tendem a ter uma maior facilidade e energia para interagirem com outras pessoas, se sentido mais energéticos e animados enquanto fazem isso.</p>';
+        $img1 = '<img width="300" src="img/extro/adele.jpg" alt="Adele">';
+        $img2 = '<img width="300" src="img/extro/steve.jpg" alt="Steve Jobs">';
+        $img3 = '<img width="300" src="img/extro/downey.jpg" alt="Robert Downey Jr.">';
+        $img4 = '<img width="300" src="img/extro/madonna.jpg" alt="Madonna">';
+        $nome1 = '<a>Adele</a>';
+        $nome2 = '<a>Steve Jobs</a>';
+        $nome3 = '<a>Robert Downey Jr.</a>';
+        $nome4 = '<a>Madonna</a>';
         $sql = $pdo->prepare("INSERT INTO resultado (resultado) VALUES (?)");
             if ($sql->execute(array(1))){
                 $msgErr = "Dados cadastrados com sucesso!";
@@ -119,7 +121,15 @@
             }
     }else{
         $resultado = '<h1 id="intro">INTROVERTIDO</h1>';
-        $desc = '<p>Descrição do introvertido</p>';
+        $desc = '<p>Pessoas introvertidas, em resumo, tendem a concentrar sua energia, majoritariamente, neles mesmos; portanto, tendem a preferir ter mais tempo à sós do que interagir com outras pessoas (mas não que isso seja um problema, é apenas uma <b>escolha</b> do introvertido).</p>';
+        $img1 = '<img width="300" src="img/intro/albert.jpg" alt="Albert Einsten">';
+        $img2 = '<img width="300" src="img/intro/hermione.jpg" alt="Hermione">';
+        $img3 = '<img width="300" src="img/intro/pocahontas.jpg" alt="Pocahontas">';
+        $img4 = '<img width="300" src="img/intro/christina.jpg" alt="Christina Aguilera">';
+        $nome1 = '<a>Albert Einsten</a>';
+        $nome2 = '<a>Hermione Granger</a>';
+        $nome3 = '<a>Pocahontas</a>';
+        $nome4 = '<a>Christina Aguilera</a>';
         $sql = $pdo->prepare("INSERT INTO resultado (resultado) VALUES (?)");
         if ($sql->execute(array(0))){
             $msgErr = "Dados cadastrados com sucesso!";
@@ -135,20 +145,11 @@
         <title>INTROVERTIDO OU EXTROVERTIDO? | QUESTIONÁRIO - RESULTADO</title>
         <meta charset="utf-8">
     </head>
-    <!-- <body>
-        <header>
-            <?php // echo $resultado ?>
-        </header>
-    </body> -->
     <body>
         <!-- Corpo da página: imagem com o conteúdo sobreposto -->
         <div class="container">
             <!-- Imagem de fundo -->
-            <img id="background" src="img/background.png">
-            <img id="background" src="img/background.png">
-            <img id="background" src="img/background.png">
-            <img id="background" src="img/background.png">
-            <img id="background" src="img/footer.png">
+            <img id="background" src="img/background2.png">
             <!-- Conteúdo sobreposto -->
             <div class="conteudo">
                 <!-- Título -->
@@ -164,7 +165,13 @@
                 <main>
                     <!-- Descrição -->
                     <fieldset>
-                        <?php echo $desc ?>
+                        <?php echo $desc ?><br>
+                        <a><b>ATENÇÃO!</b><br>
+                        <div class="margem-baixo"></div>
+                        Esse questionário NÃO tem a intenção de rotular e nem diagnosticar a partir desse resultado.
+                        Apesar de ser baseado em pesquisas científicas, muitos fatores podem interferir em seu resultado, tais como:
+                        <b>idade, experiências, tímidez, traumas</b> e etc.
+                        </a>
                     </fieldset>
                     <br><br>
                     <!-- Pessoas Relacionadas -->
@@ -174,42 +181,44 @@
                         </center>
                     </fieldset>
                     <br>
+                    <center>
                     <fieldset>
                         <table class="relacionadas">
-                            <!-- Coluna 1 -->
+                            <!-- Linha 1 -->
                             <tr> <!-- Imagens -->
-                                <td><center><img src="img/img_teste.png" width="70%"></center></td>
-                                <td><center><img src="img/img_teste.png" width="70%"></center></td>
+                                <td class="esq"><center><?php echo $img1; ?></center></td>
+                                <td class="dir"><center><?php echo $img2; ?></center></td>
                             </tr>
                             <tr> <!-- Margem -->
                                 <td><div class="margem-baixo"></div></td>
                                 <td><div class="margem-baixo"></div></td>
                             </tr>
                              <tr> <!-- Nome -->
-                                <td id="nomes">Nome da Pessoa</td>
-                                <td id="nomes">Nome da Pessoa</td>
+                                <td class="esq" id="nomes"><center><?php echo $nome1; ?></center></td>
+                                <td class="dir" id="nomes"><center><?php echo $nome2; ?></center></td>
                             </tr>
+                            
                             <!-- Margem -->
                             <tr>
-                                <td><div class="margem-baixo2"></div></td>
-                                <td><div class="margem-baixo2"></div></td>
+                                <td><br></td>
+                                <td><br></td>
                             </tr>
-                            <!-- Coluna 2 -->
+                            <!-- Linha 2 -->
                             <tr> <!-- Imagens -->
-                                <td><center><img src="img/img_teste.png" width="70%"></center></td>
-                                <td><center><img src="img/img_teste.png" width="70%"></center></td>
+                                <td class="esq"><center><?php echo $img3; ?></center></td>
+                                <td class="dir"><center><?php echo $img4; ?></center></td>
                             </tr>
                             <tr> <!-- Margem -->
                                 <td><div class="margem-baixo"></div></td>
                                 <td><div class="margem-baixo"></div></td>
                             </tr>
                              <tr> <!-- Nome -->
-                                <td id="nomes">Nome da Pessoa</td>
-                                <td id="nomes">Nome da Pessoa</td>
+                                <td class="esq" id="nomes"><center><?php echo $nome3; ?></center></td>
+                                <td class="dir" id="nomes"><center><?php echo $nome4; ?></center></td>
                             </tr>
                         </table>
-                        <?php // echo $rel ?>
                     </fieldset>
+                    </center>
                     <br>
                 </main>
             </div>
@@ -217,4 +226,5 @@
                 
             </footer>
         </div>
+    </body>
 </html>
