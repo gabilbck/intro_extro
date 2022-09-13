@@ -111,56 +111,56 @@
                     <main>
                         <form name="myForm" action="resultado.php" method="post" onsubmit="return validateForm()">
                         <fieldset>    
-                            <label>Você tende a ter um círculo social menor, mas estável, sólido e íntimo?</label><br>
+                            <label>Você tende a ter um círculo social menor, porém estável, solido e íntimo?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p1" value="i"> Sim<br>
                             <input type="radio" name="p1" value="e"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>    
-                            <label> Prefere se relacionar com pessoas a quem já é acostumado e demora pra fazer novas amizades não por ser reservado, mas sim, por demorar a ter confiança e se sentir confortável para mostrar a sua personalidade?</label><br>
+                            <label>Você prefere se relacionar com pessoas das quais já é acostumado e tende a demorar mais para ter novas amizades (não por ser reservado, mas sim, por demorar a ter confiança e se sentir confortável para mostrar a sua personalidade)?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p2" value="i"> Sim<br>
                             <input type="radio" name="p2" value="e"> Não<br>
                         </fieldset>
                         <br>   
                         <fieldset>
-                            <label>Você tende ater um círculo social mais amplo, não se importa tanto de ter o conforto da estabilidade de ter um relacionamento com as mesmas pessoas de quem está acostumado, então pra você está tudo bem as pessoas entrarem e saírem de sua vida?</label><br>
+                            <label>Você possui um círculo social mais amplo, não se importa tanto de ter o conforto da estabilidade de ter um relacionamento com as mesmas pessoas de quem está acostumado, ou seja, está tudo bem as pessoas entrarem e saírem de sua vida?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p3" value="e"> Sim<br>
                             <input type="radio" name="p3" value="i"> Não<br> 
                         </fieldset>
                         <br>
                         <fieldset> 
-                            <label>Fica nervoso por te tirarem da sua zona de conforto mas, depois de um período de tempo pra se acostumar, você “pega o jeito”?</label><br>
+                            <label>Fica nervoso por te tirarem da sua zona de conforto, mas depois de um período de tempo, você “pega o jeito”? </label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p4" value="i"> Sim<br>
                             <input type="radio" name="p4" value="e"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
-                            <label>Quando te tira da sua zona de conforto você se adequa rapidamente e não tem problemas no processo?</label><br>
+                            <label>Quando lhe tiram da sua zona de conforto, você se adequa rapidamente e não tem problemas no processo?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p5" value="e"> Sim<br>
                             <input type="radio" name="p5" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
-                            <label>Você sente-se cansado de pois de ter muitas interações sociais no mesmo dia?</label><br>
+                            <label>Você se sente cansado após ter muitas interações sociais no mesmo dia?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p6" value="i"> Sim<br>
                             <input type="radio" name="p6" value="e"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
-                            <label>Depois de ter um dia cheio e ter várias interações sociais você quer espairecer e deseja sair para 'recarregar' suas energias através do contato social?</label><br>
+                            <label>Depois de ter um dia cheio e ter várias interações sociais, você quer espairecer e deseja sair para “recarregar” suas energias através do contato social?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p7" value="e"> Sim<br>
                             <input type="radio" name="p7" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
-                            <label>Você se sente bem em lugares cheios, com muito barulho e pessoas agitadas? </label><br>
+                            <label>Você se sente energizado em lugares com muitas pessoas, mesmo que seja um ambiente com muito barulho?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p8" value="e"> Sim<br>
                             <input type="radio" name="p8" value="i"> Não<br>
@@ -174,42 +174,42 @@
                         </fieldset>
                         <br>
                         <fieldset>
-                            <label>Você sente a necessidade de falar com alguém sem, necessariamente, ter algum problema e que queira desabafar?</label><br>
+                            <label>Você sente a necessidade de falar com alguém, sem necessariamente existir algum problema, apenas para conversar? </label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p10" value="e"> Sim<br>
                             <input type="radio" name="p10" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
-                            <label>Você não tem problema em não falar com ninguém e quando lhe perguntam algo você não tem dificuldade em responder?</label><br>
+                            <label>Você não vê problema em não falar com ninguém e, quando lhe perguntam algo, você não tem dificuldade em responder?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p11" value="i"> Sim<br>
                             <input type="radio" name="p11" value="e"> Não<br>
                             </fieldset>
                         <br>
                         <fieldset>
-                            <label>Você não tem problema em conversar com vários tipos de pessoas e sobre vários assuntos?</label><br>
+                            <label>Você gosta e se sente empolgado de conversar com várias pessoas com interesses e gostos diferentes entre si?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p12" value="e"> Sim<br>
                             <input type="radio" name="p12" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
-                            <label>Você tende a conversar menos com as pessoas a sua volta, mas quando é sobre algum assunto de seu interesse você se “solta” mais?</label><br>
+                            <label>Você tende a conversar menos com as pessoas a sua volta, entretanto, quando é sobre algum assunto de seu interesse você se “solta” mais?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p13" value="i"> Sim<br>
                             <input type="radio" name="p13" value="e"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
-                            <label>Quando lhe chamam para uma festa você aceita na hora?</label><br>
+                            <label>Você gosta de ir à festas?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p14" value="e"> Sim<br>
                             <input type="radio" name="p14" value="i"> Não<br>
                         </fieldset>
                         <br>
                         <fieldset>
-                            <label>Quando lhe chamam para uma festa, você pergunta se terá muitas pessoas e sobre o que é, antes de se decidir de fato?</label><br>
+                            <label>Quando te chamam para uma festa você primeiro se preocupa se vai ter muitas pessoas e/ou sobre o que é antes de aceitar?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p15" value="i"> Sim<br>
                             <input type="radio" name="p15" value="e"> Não<br>
