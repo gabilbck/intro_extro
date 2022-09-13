@@ -145,7 +145,7 @@
         <title>INTROVERTIDO OU EXTROVERTIDO? | QUESTIONÁRIO - RESULTADO</title>
         <meta charset="utf-8">
     </head>
-    <body>
+    <body bgcolor="#CB1D98">
         <!-- Corpo da página: imagem com o conteúdo sobreposto -->
         <div class="container">
             <!-- Imagem de fundo -->
