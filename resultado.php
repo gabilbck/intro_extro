@@ -218,6 +218,8 @@
                             </tr>
                         </table>
                     </fieldset>
+                    <br><br><br><br><br>
+                    <button id="voltar"><a href="index.php">Voltar ao Questionário</a></button>
                     </center>
                     <br>
                 </main>

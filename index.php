@@ -110,7 +110,7 @@
                     <main>
                         <form name="myForm" action="resultado.php" method="post" onsubmit="return validateForm()">
                         <fieldset>    
-                            <label>Você tende a ter um círculo social menor, porém estável, solido e íntimo?</label><br>
+                            <label>Você tende a ter um círculo social menor, porém estável, sólido e íntimo?</label><br>
                             <div class="margem-baixo"></div>
                             <input type="radio" name="p1" value="i"> Sim<br>
                             <input type="radio" name="p1" value="e"> Não<br>
@@ -217,6 +217,8 @@
                         <center>
                             <!-- Enviar Informações ao baanco de dados -->
                             <input id="enviar" type="submit" name="<?php echo $total ?>">
+                            <br><br><br><br><br><br><br>
+                            <input id="limpar" type="reset" value="Refazer Questionário">
                         </center>
                         </form>
                     </main>

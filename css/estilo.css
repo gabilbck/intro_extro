@@ -57,6 +57,39 @@
     border-radius: 0.3rem;
 }
 
+#enviar:hover{
+    color: black;
+    background-color: white;
+    width: 100px;
+    height: 40px;
+    font-size: 21px;    
+    border: 0;
+    box-shadow: #AB007A -3px 3px 1px;
+    border-radius: 0.3rem;
+}
+
+#limpar{
+    color: white;
+    background-color: #AB007A;
+    width: 250px;
+    height: 40px;
+    font-size: 21px;    
+    border: 0;
+    box-shadow: white -3px 3px 1px;
+    border-radius: 0.3rem;
+}
+
+#limpar:hover{
+    color: black;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    font-size: 21px;    
+    border: 0;
+    box-shadow: #AB007A -3px 3px 1px;
+    border-radius: 0.3rem;
+}
+
 #nomes{
     text-align: center;
 }
@@ -67,4 +100,36 @@
 
 .dir{
     padding-left: 20px;
+}
+
+#voltar{
+    color: white;
+    background-color: #AB007A;
+    width: 250px;
+    height: 40px;
+    font-size: 21px;    
+    border: 0;
+    box-shadow: white -3px 3px 1px;
+    border-radius: 0.3rem;
+}
+
+#voltar a{
+    color: white;
+    text-decoration: none;
+}
+
+#voltar:hover{
+    color: black;
+    background-color: white;
+    width: 250px;
+    height: 40px;
+    font-size: 21px;    
+    border: 0;
+    box-shadow: #AB007A -3px 3px 1px;
+    border-radius: 0.3rem;
+}
+
+#voltar a:hover{
+    color: black;
+    text-decoration: none;
 }
