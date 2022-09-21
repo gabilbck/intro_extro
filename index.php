@@ -5,9 +5,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <link href="css/estilo.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         <title>INTROVERTIDO OU EXTROVERTIDO? | QUESTIONÁRIO - PERGUNTAS</title>
         <meta charset="utf-8">
+        
     </head>
     <script>
         //Validar se todas as perguntas foram respondidas
